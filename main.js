@@ -35,7 +35,7 @@ password.addEventListener('keyup', function() {
         majuscule.textContent = "majuscule, minuscule, chiffre et caractère spécial ok !";
         majuscule.style.color = "green";
     }else{
-        majuscule.textContent = "le mot de passe doit contenir au moins une majuscule, une minuscule, un chiffre et un caractère spécial";
+        majuscule.textContent = "le mot de passe doit contenir au moins : une majuscule, une minuscule, un chiffre et un caractère spécial";
         majuscule.style.color = "red";
     }
     });

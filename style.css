@@ -1,0 +1,23 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+li{
+    list-style: none;
+}
